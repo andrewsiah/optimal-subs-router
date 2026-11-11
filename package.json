@@ -1,0 +1,13 @@
+{
+  "name": "optimal-subs-router",
+  "version": "0.1.0",
+  "description": "Pick which LLM subscription to use next so none of your quota expires unused. Rule, simulator, synthetic benchmark and an agent skill.",
+  "type": "module",
+  "license": "MIT-0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "bench": "node scripts/bench.mjs",
+    "chart": "node scripts/chart.mjs"
+  }
+}
